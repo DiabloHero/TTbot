@@ -620,4 +620,4 @@ if(cmd === `${prefix}ping`){
    
 
 
-bot.login(process.env.Bot_TOKEN);
+bot.login(Process.env.BOT_TOKEN);
