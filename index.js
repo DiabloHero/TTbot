@@ -4,7 +4,6 @@ DisTube = require('distube')
 const bot = new Discord.Client({disableEveryone: true});
 config = {
     prefix: ".",
-    token: process.env.TOKEN || "ODU2ODE5NzkyNTg0NzY5NTM2.YNGlnQ.ccyX4LPWH5rd0foF4baqSKYFOIM"
 };
 var weather = require('weather-js');
 const randomPuppy = require('random-puppy');
@@ -621,4 +620,4 @@ if(cmd === `${prefix}ping`){
    
 
 
-bot.login(config.token);
+bot.login(process.env.Bot_TOKEN);
